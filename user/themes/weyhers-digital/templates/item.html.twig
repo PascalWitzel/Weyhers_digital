@@ -1,0 +1,68 @@
+{% extends 'partials/base.html.twig' %}
+{% set blog = page.find(header_var('blog_url')|defined(theme_var('blog-page'))) %}
+{% set show_breadcrumbs = header_var('show_breadcrumbs', [page, blog])|defined(true) %}
+{% set show_sidebar = header_var('show_sidebar', [page, blog])|defined(true)  %}
+{% set show_pagination = header_var('show_pagination', [page, blog])|defined(true) %}
+{% set hero_image_name = page.header.hero_image %}
+
+
+
+{% block body %}
+<h2 id="page_title">{{ page.title }}</h2>            
+<section id="body-wrapper item_Content" class="section blog-listing">
+    <section class="container {{ grid_size }}">
+
+        {% if show_breadcrumbs and config.plugins.breadcrumbs.enabled %}
+            {% include 'partials/breadcrumbs.html.twig' %}
+        {% endif %}
+
+        {% embed 'partials/layout.html.twig' %}
+            {% block item %}
+                {% include 'partials/blog-item.html.twig' %}
+            {% endblock %}
+            {% block sidebar %}
+                {% include 'partials/sidebar.html.twig' %}
+            {% endblock %}
+        {% endembed %}
+
+    </section>
+</section>
+
+
+<script type="module">
+    
+    document.getElementById("mehr").addEventListener("click", myFunction);
+    var change = document.getElementById("mehr").firstChild;
+    const left = document.querySelector("img[src*='#bild_links']");
+    const right = document.querySelector("img[src*='#bild_rechts']");
+    const text = document.getElementsByClassName("text");    
+    var show = true;
+
+    function myFunction() {
+        
+        if (show) {
+            for (let i = 0; i < text.length; i++){
+            text[i].style.display = 'block';
+            }                
+            left.style.display = 'block';
+            right.style.display = 'block';            
+            show = !show;
+            change.data = "Schließen";
+        } else {
+            for (let i = 0; i < text.length; i++){
+            text[i].style.display = 'none';
+            }                
+            left.style.display = 'none';
+            right.style.display = 'none';
+            document.getElementById("mehr")
+            show = !show;
+            change.data = "Erfahre mehr";
+        }
+        
+}
+
+console.log("Hello there!");
+
+</script>
+
+{% endblock %}

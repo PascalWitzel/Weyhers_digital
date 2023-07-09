@@ -1,0 +1,9 @@
+version: '1.2'
+timestamp: 1686491989
+count: 1
+index:
+  pascal:
+    storage_key: pascal
+    storage_timestamp: 1686491989
+    key: pascal
+    email: schulz.witzel.gbr@gmail.com

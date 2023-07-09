@@ -1,0 +1,3 @@
+1688244818
+O:39:"Grav\Common\Flex\Types\Pages\PageObject":4:{s:4:"type";s:5:"pages";s:3:"key";s:13:"weitere-links";s:8:"elements";a:4:{s:4:"root";b:0;s:6:"header";a:2:{s:5:"title";s:13:"Weitere Links";s:7:"visible";b:1;}s:11:"frontmatter";s:36:"title: 'Weitere Links'
+visible: true";s:8:"markdown";s:10:"#Feuerwehr";}s:7:"storage";a:6:{s:3:"key";s:13:"weitere-links";s:11:"storage_key";s:13:"weitere-links";s:8:"template";s:7:"default";s:17:"storage_timestamp";i:1687928036;s:8:"markdown";a:1:{s:0:"";a:1:{s:7:"default";i:1687928036;}}s:8:"checksum";s:32:"8c2e7b090a07e88c391684b0a1d92134";}}

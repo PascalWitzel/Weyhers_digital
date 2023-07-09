@@ -1,0 +1,82 @@
+#start{
+    padding-top: 3rem;
+}
+
+#page_title {
+    display: flex;
+    justify-content: center;
+}
+
+#item_Content {
+    padding-top: 0rem;
+}
+
+.audio {
+    display: inline-block;
+}
+
+img[src*="#bild_links"] {
+    display: none;
+    width:300px;
+    float: left;
+    
+}
+
+img[src*="#bild_rechts"] {
+    display: none;
+    width:300px;
+    float: right;
+}
+
+.text {
+    display:none;
+}
+
+#komoot {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 5px;
+    border: 1px solid rgba(0, 0, 0, 0.495);    
+}
+
+
+#lade {
+    position: absolute;
+    z-index: 2;
+    color:black;
+    font-size: large;
+}
+
+#k_logo{   
+    position: absolute;
+    opacity: .25;
+}
+
+#mehr{
+    width: 100%;
+    
+}
+
+/*-------------
+
+     Footer
+
+---------------*/
+#footer {
+    padding: 1rem;  
+    background-color:rgb(58, 57, 57);  
+  }
+  
+  .container_footer {
+  display: grid;    
+  grid-auto-flow: column;
+  align-items: center;
+  
+  }
+  
+  #footer a {
+    color: whitesmoke;
+    
+  }
+

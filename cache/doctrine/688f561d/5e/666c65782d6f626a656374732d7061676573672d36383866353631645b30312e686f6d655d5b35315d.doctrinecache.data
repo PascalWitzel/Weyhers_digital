@@ -1,0 +1,21 @@
+1688844121
+O:39:"Grav\Common\Flex\Types\Pages\PageObject":4:{s:4:"type";s:5:"pages";s:3:"key";s:4:"home";s:8:"elements";a:8:{s:4:"root";b:0;s:11:"storage_key";s:7:"01.home";s:6:"header";a:11:{s:5:"title";s:4:"News";s:7:"content";a:5:{s:5:"items";a:1:{i:0;s:14:"@self.children";}s:5:"limit";i:6;s:5:"order";a:2:{s:2:"by";s:4:"date";s:3:"dir";s:4:"desc";}s:10:"pagination";b:1;s:20:"url_taxonomy_filters";b:1;}s:10:"pp_protect";s:1:"0";s:10:"hero_image";s:41:"Feuerwehr Weyhers auf dem Motzküppel.jpg";s:12:"hero_classes";s:43:"hero-large text-dark overlay-light-gradient";s:11:"media_order";s:41:"Feuerwehr Weyhers auf dem Motzküppel.jpg";s:4:"feed";a:0:{}s:16:"pp_password_hash";s:128:"ef76d932b366eb3687b150948cc2cac76efb0f9f9929ffc076f36b275d58b6a5d8a6aea3db9ff9a8cd3ff5d0b73f25fb7a0aa577dcca205d525b38100be49bae";s:12:"show_sidebar";b:0;s:16:"show_breadcrumbs";b:0;s:7:"visible";b:0;}s:11:"frontmatter";s:576:"title: News
+content:
+    items:
+        - '@self.children'
+    limit: 6
+    order:
+        by: date
+        dir: desc
+    pagination: true
+    url_taxonomy_filters: true
+pp_protect: '0'
+hero_image: 'Feuerwehr Weyhers auf dem Motzküppel.jpg'
+hero_classes: 'hero-medium text-dark overlay-light-gradient'
+media_order: 'Feuerwehr Weyhers auf dem Motzküppel.jpg'
+feed: {  }
+pp_password_hash: ef76d932b366eb3687b150948cc2cac76efb0f9f9929ffc076f36b275d58b6a5d8a6aea3db9ff9a8cd3ff5d0b73f25fb7a0aa577dcca205d525b38100be49bae
+show_sidebar: false
+show_breadcrumbs: false
+visible: false";s:8:"markdown";s:23:"#** Entdecke Weyhers**
+";s:4:"slug";s:4:"home";s:4:"name";s:7:"blog.md";s:8:"ordering";b:1;}s:7:"storage";a:7:{s:3:"key";s:4:"home";s:11:"storage_key";s:7:"01.home";s:8:"template";s:4:"blog";s:17:"storage_timestamp";i:1688843520;s:8:"markdown";a:1:{s:0:"";a:1:{s:4:"blog";i:1688843520;}}s:8:"children";a:1:{s:6:"test01";b:0;}s:8:"checksum";s:32:"e0f4232bf0f300d23e3ca0550ae37cf2";}}
